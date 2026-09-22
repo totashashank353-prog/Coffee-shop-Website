@@ -1,0 +1,228 @@
+/* General Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #222;
+    line-height: 1.6;
+}
+
+.container {
+    width: 85%;
+    max-width: 1000px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1e3a8a;
+}
+
+h3 {
+    color: #1e3a8a;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav {
+    background-color: #1e3a8a;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #facc15;
+}
+
+/* Marksheet */
+.student-info {
+    margin-bottom: 20px;
+}
+
+.student-info p {
+    margin: 5px 0;
+}
+
+.marksheet {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.marksheet th,
+.marksheet td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+.marksheet th {
+    background-color: #1e3a8a;
+    color: white;
+}
+
+.marksheet tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.total {
+    font-weight: bold;
+}
+
+/* Resume */
+.resume-header {
+    text-align: center;
+    border-bottom: 2px solid #1e3a8a;
+    padding-bottom: 15px;
+}
+
+.resume-header h1 {
+    margin-bottom: 5px;
+}
+
+.resume-section {
+    margin-top: 20px;
+}
+
+.resume-section ul {
+    margin-left: 25px;
+}
+
+.resume-section table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.resume-section th,
+.resume-section td {
+    border: 1px solid #aaa;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Restaurant Menu */
+.menu-category {
+    margin-bottom: 30px;
+}
+
+.menu {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.menu th,
+.menu td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu th {
+    background-color: #1e3a8a;
+    color: white;
+}
+
+.menu td:last-child {
+    text-align: right;
+    font-weight: bold;
+}
+
+/* Forms */
+.form-group {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.radio-group,
+.checkbox-group {
+    margin-top: 5px;
+}
+
+.radio-group label,
+.checkbox-group label {
+    display: inline-block;
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+button {
+    background-color: #1e3a8a;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #162d6b;
+}
+
+/* Login */
+.login-box {
+    width: 400px;
+    max-width: 100%;
+    margin: 50px auto;
+}
+
+.login-box .container {
+    margin: 0;
+}
+
+.forgot {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.forgot a {
+    color: #1e3a8a;
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #1e3a8a;
+    color: white;
+}
